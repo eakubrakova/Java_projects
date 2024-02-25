@@ -26,25 +26,6 @@ class Transactions {
     }
 }
 
-class TransactionSystem {
-    private List<Transactions> transactions;
-
-    public TransactionSystem() {
-        transactions = new ArrayList<>();
-    }
-
-    public void addTransaction(Transactions transaction) {
-        transactions.add(transaction);
-    }
-
-    public void findTransactionsByDateRange(Date startDate, Date endDate) {
-        for (Transactions transaction : transactions) {
-            if (transaction.getDate().after(startDate) && transaction.getDate().before(endDate)) {
-                System.out.println("Date: " + transaction.getDate() + ", Description: " + transaction.getDescription() + ", Amount: " + transaction.getAmount());
-            }
-        }
-    }
-}
 
 
 
