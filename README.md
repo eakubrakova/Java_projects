@@ -18,3 +18,7 @@ Homework #5: Customer.java + Operation.java + New_main.java + ConsolePrintable.j
 
 Homework #6: OperationRuntimeException.java + CustomerOperationOutofBound.java + OperationException + Main.java + SaveOperation.java
 
+Homework #7: OperationData.java
+
+Homework #8: CustomerService. java + Main.java + OperationService.java + +StatementService.java + IOService.java
+
