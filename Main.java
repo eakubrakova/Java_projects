@@ -1,17 +1,21 @@
 package src.main.java;
-import java.util.Date;
+import java.util.List;
 
-public class Main {
-    public void saveOperation(Operation operation) {
-        // Логика сохранения операции
-    }
 
+// Пример использования класса StorageService
+public class Main{
     public static void main(String[] args) {
-        Operation operation = new Operation(1, new Date(), "Description", 100.0);
-        Main main = new Main();
-        main.saveOperation(operation);
+        StorageService<String> storageService = new StorageService<>();
+        storageService.storeData("Пример данных");
+
+        List<String> storedData = storageService.getData();
+        for (String data : storedData) {
+            System.out.println(data);
+        }
     }
 }
+
+
 
 
 
