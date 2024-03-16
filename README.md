@@ -20,5 +20,8 @@ Homework #6: OperationRuntimeException.java + CustomerOperationOutofBound.java +
 
 Homework #7: OperationData.java
 
-Homework #8: CustomerService. java + Main.java + OperationService.java + +StatementService.java + IOService.java
+Homework #8: CustomerService. java + Main.java + OperationService.java + StatementService.java + IOService.java
+
+
+Homework #9: Operation.java + processQueue.java + startAsyncOperationProcessing.java + OperationService.java + Main.java
 
